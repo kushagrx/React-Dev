@@ -1,5 +1,6 @@
 import Button from "./Button"
 import Student from "./Student";
+import Card from "./Card";
 
 // Props: read only properties shared between components
 //        a parent component can send data to its child components
@@ -8,7 +9,7 @@ import Student from "./Student";
 
 function App() {
   return(
-    <Button/>
+    <Card/>
   );
 }
 
