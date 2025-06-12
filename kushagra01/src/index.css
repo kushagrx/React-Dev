@@ -15,3 +15,17 @@
   margin: 20px;
   cursor: pointer;
 }
+
+.greet{
+  background-color: green;
+  color: white;
+  max-width: 650px;
+  padding: 10px;
+}
+
+.error{
+  background-color: red;
+  color: black;
+  max-width: 500px;
+  padding: 10px;
+}

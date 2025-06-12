@@ -1,6 +1,7 @@
-import Button from "./Button"
+import Button from "./Button";
 import Student from "./Student";
 import Card from "./Card";
+import UserGreeting from "./userGreeting"; 
 
 // Props: read only properties shared between components     eg in student.jsx
 //        a parent component can send data to its child components
@@ -8,12 +9,13 @@ import Card from "./Card";
 
 
 function App() {
-  return(
+  return (
     <>
-    <Card/>
-    <Button/>
+      <Card />
+      <Button />
+      <UserGreeting isLoggedIn={false} user="Kushagra" />
     </>
   );
 }
 
-export default App
+export default App;
