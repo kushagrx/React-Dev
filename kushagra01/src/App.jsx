@@ -13,7 +13,7 @@ function App() {
     <>
       <Card />
       <Button />
-      <UserGreeting isLoggedIn={false} user="Kushagra" />
+      <UserGreeting isLoggedIn={true} user="Kushagra" />
     </>
   );
 }
