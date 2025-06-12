@@ -1,4 +1,5 @@
 import profilePic from './assets/kushagramain.png.jpg'
+
 function Card(){
     return(
         <div className='card'>
