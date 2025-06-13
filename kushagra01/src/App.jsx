@@ -2,6 +2,7 @@ import Button from "./Button";
 import Student from "./Student";
 import Card from "./Card";
 import UserGreeting from "./userGreeting"; 
+import List from "./List";
 
 // Props: read only properties shared between components     eg in student.jsx
 //        a parent component can send data to its child components
@@ -14,6 +15,7 @@ function App() {
       <Card />
       <Button />
       <UserGreeting isLoggedIn={true} user="Kushagra" />
+      <List/>
     </>
   );
 }
