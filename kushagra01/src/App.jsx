@@ -15,10 +15,10 @@ function App() {
   return (
     <>
       <Card />
-      <Button />
+      {/* <Button />
       <UserGreeting isLoggedIn={true} user="Kushagra" />
-      <List/>
-      <Component/> <br></br>
+      <List/>*/}
+      <Component/> <br></br> 
       <Change/>
     </>
   );

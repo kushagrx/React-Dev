@@ -3,7 +3,7 @@ function Component(){
     const [age,setAge] = useState(1);
 
     const incrementAge=()=>{
-        setAge(age+1);
+        setAge(a=>a+1);      //updater function with first letter of the variable, its a good practice
     }
     const decrementAge=()=>{
         setAge(age-1);
