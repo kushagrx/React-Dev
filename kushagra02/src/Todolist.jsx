@@ -35,9 +35,9 @@ function Todolist(){
                         <span className="text">{task}</span>
                         <button className="deletebutton" onClick={() => deleteTask(index)}>
                         Delete</button>
-                        <button className="moveupbutton" onClick={() => moveTaskUp(index)}>
+                        <button className="movebutton" onClick={() => moveTaskUp(index)}>
                         ☝️</button>
-                        <button className="movedownbutton" onClick={() => moveTaskDown(index)}>
+                        <button className="movebutton" onClick={() => moveTaskDown(index)}>
                         👇</button>
                     </li>
                 ))}
