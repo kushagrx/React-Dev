@@ -9,11 +9,16 @@ function Todolist(){
     }
 
     function addTask(){
-
+        if(newtask.trim()!==""){
+            setTasks(tasks=>[...tasks,newtask]);    /* ... is the spread operator and t is the updater fxn for tasks */
+            setNewtask("");
+        }
     }
-    function deleteTask(index){
-
+    function deleteTask(index) {
+        const updatedTasks = tasks.filter((_, i) => i !== index);  /* _ because the element parameter is being ignored*/
+        setTasks(updatedTasks);
     }
+
     function moveTaskUp(index){
 
     }

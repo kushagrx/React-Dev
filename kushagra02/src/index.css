@@ -1,3 +1,8 @@
+body{
+    background-color: hsl(0, 0%, 10%);
+}
+
+
 .todolist{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -5,6 +10,7 @@
 }
 h1{
     font-size: 3 rem;
+    color: white;
 }
 button{
     font-size: 1.7rem;
@@ -57,5 +63,10 @@ li{
     align-items: center;
 }
 .text{
-    flex:1;
+    flex:1;     /*flex 1 means take as much space as possible and shrink with the responsiveness of the browser*/
+}
+.deletebutton,.movebutton{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
 }
