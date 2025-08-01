@@ -19,7 +19,7 @@ function Change() {
 
   return (
     <div>
-      <input value={name} onChange={handleNameChange} />
+      <input placeholder="Enter a name" onChange={handleNameChange} />
       <p>Name: {name}</p> <br />
 
       <input value={quantity} onChange={handleQuantityChange} type="number" />

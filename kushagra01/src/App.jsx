@@ -14,11 +14,6 @@ import Change from "./Change";
 function App() {
   return (
     <>
-      <Card />
-      {/* <Button />
-      <UserGreeting isLoggedIn={true} user="Kushagra" />
-      <List/>*/}
-      <Component/> <br></br> 
       <Change/>
     </>
   );

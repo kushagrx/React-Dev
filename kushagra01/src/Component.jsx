@@ -12,7 +12,7 @@ function Component(){
     const [name,setName]= useState("Kushagra");
     const changeName=()=>{
         setName(`Hey there ${name}`);
-    }
+    } 
 
     return(<div>
         <p>Age: {age}</p>
